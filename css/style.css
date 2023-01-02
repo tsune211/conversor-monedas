@@ -16,7 +16,7 @@ img{
     width: 250px;
 }
 
-input {
+input{
     display: inline;
     font-family: 'Poppins', sans-serif;
     width: 236px;
@@ -42,10 +42,23 @@ label {
 footer {
     font-weight: 100;
 }
+output{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    width: 258px;
+    height: 49px;
+    text-align: center;
+    border: 1px, solid #ced4da;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* ids y clases */ 
-#pesoss {
+.signo {
     float: left;
     font-family: 'Poppins',sans-serif;
     text-align: center;
@@ -60,7 +73,7 @@ footer {
 
 .card{
     width: 300px;
-    background-color: rgb(21, 58, 205);
+    background-color: #000;
     border-radius: 15px;
     color: #fff;
 }

@@ -16,14 +16,17 @@
         <header>
             <img src="./img/kisspng-logo-money-neobux-finance-graphic-design-5b097765a01cb4.9055516215273470456558.png" alt="logo pagina">
         </header>
-        <form action="#">
+        <form action="#" id="inputform">
             <div class="card">
                 <img src="./img/bandera-mexico.png" alt="peso mexicano" id="banderamx">
                 <label for="">introdice la cantidad en pesos mexicanos</label>
-                <input type="text" name="pesoss" value="$" id="pesoss" readonly>
-                <input type="text" name="pesos" value=" " id="pesos">
+                <input type="text" name="pesoss" value="$" id="pesoss" class="signo" readonly>
+                <input type="text" name="pesos" value=" " id="peso">
+            </div>
+            <div>
+                <input type="submit" value="calcular" id="inputPesos">
+            </div>
         </form>
-        
     </main>
     <section id="cambio">
         <div class="fila">
@@ -31,28 +34,30 @@
                 <div class="card">
                     <img src="./img/Flag_of_Europe.svg.png" alt="euro" id="banderaeu">
                     <label for="">cantidad en euros</label>
-                    <input type="text" name="pesoss" value="€" id="pesoss" readonly>
-                    <input type="text" name="pesos" value=" " id="pesos">
+                    <input type="text" name="euross" value="€" id="euross" class="signo" readonly>
+                    <output type="text" name="euros" value=" " id="euro"> </output>
                 </div>
             </form>  
             <form action="#">  
                 <div class="card">
                     <img src="./img/la-bandera-de-japon-2.jpg" alt="yen" id="banderajp">
                     <label for="">cantidad en yenes</label>
-                    <input type="text" name="pesoss" value="¥" id="pesoss" readonly>
-                    <input type="text" name="pesos" value=" " id="pesos">
+                    <input type="text" name="yenes" value="¥" id="yenes" class="signo" readonly>
+                    <output type="text" name="euros" value=" " id="yen"> </output>
                 </div>
             </form>
             <form action="#">
                 <div class="card">
                     <img src="./img/1024px-Flag_of_the_United_States.svg.png" alt="dolar" id="banderausa">
                     <label for="">cantidad en dolares</label>
-                    <input type="text" name="pesoss" value="$" id="pesoss" readonly>
-                    <input type="text" name="pesos" value=" " id="pesos">
+                    <input type="text" name="dolares" value="$" id="dolares" class="signo" readonly>
+                    <output type="text" name="euros" value=" " id="dolar"> </output>
                 </div>
             </form>
+            
         </div>
     </section>
+    <script src="./js/app.js"></script>
     
 </body>
 </html>
