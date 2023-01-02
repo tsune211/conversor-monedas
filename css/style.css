@@ -1,0 +1,80 @@
+body {
+    background-color: #e3d9d9;
+    font-family: 'Poppins', sans-serif;
+}
+header, footer {
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0px auto;
+}
+main {
+    width: 300px;
+    margin: 30px auto 0px auto;  
+}
+
+img{
+    width: 250px;
+}
+
+input {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    width: 236px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+}
+section {
+    padding: 10px 100px 10px 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 18px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+footer {
+    font-weight: 100;
+}
+
+
+/* ids y clases */ 
+#pesoss {
+    float: left;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    width: 20px;
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(21, 58, 205);
+    border-radius: 15px;
+    color: #fff;
+}
+.card img {
+    border-radius: 15px 15px 0 0;
+    height: 154px;
+    width: 300px;
+}
+.fila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
